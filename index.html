@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Book a Room</title>
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Book a Room</title>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
+	<body>
+		<div class="main-container">
+			<!-- input and buttons -->
+			<div class="button-container">
+				<input type="number" id="room-input" class="input-text" placeholder="Number of rooms" value="1" />
+				<button type="button" id="book-button" class="button">Book</button>
+				<button type="button" id="reset-button" class="button">Reset</button>
+				<button type="button" id="random-button" class="button">Random</button>
+			</div>
 
-<body>
-    <div class="main-container">
+			<!-- building -->
+			<div class="building">
+				<div class="stairs">Stairs</div>
+				<div class="floors">
+					<!-- from js -->
+				</div>
+			</div>
 
-        <!-- input and buttons -->
-        <div class="button-container">
-            <input type="number" id="room-input" class="input-text" placeholder="Number of rooms" value="1">
-            <button type="button" id="book-button" class="button">Book</button>
-            <button type="button" id="reset-button" class="button">Reset</button>
-            <button type="button" id="random-button" class="button">Random</button>
-        </div>
+			<!-- source code link -->
+			<a href="https://github.com/pranav-vaniya/book-a-room" target="_blank">Source Code is available here.</a>
+		</div>
 
-        <!-- building -->
-        <div class="building">
-            <div class="stairs">
-                Stairs
-            </div>
-            <div class="floors">
-                <!-- from js -->
-            </div>
-        </div>
-
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-</body>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</body>
 </html>
